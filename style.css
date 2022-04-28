@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.primary-color {
+  background-color: #0d1013;
+}
+.secondary-color {
+  color: rgb(201, 201, 201);
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -23,7 +23,11 @@ body {
   color: rgb(201, 201, 201);
 }
 .nav-link:hover {
-  color: darkred;
+  color: rgb(212, 47, 47) !important;
+}
+
+.nav-btn {
+  color: white;
 }
 .home-text {
   display: flex;
@@ -51,6 +55,10 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(196, 195, 195);
   transition: all 0.5s ease;
+}
+.special-card {
+  background-color: #0d1013;
+  color: #ffffff;
 }
 .services .card i {
   background: #3dcfd3;

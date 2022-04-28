@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="img/manager.png">
 
     <title>Shayem Hossain</title>
 </head>
@@ -20,13 +21,13 @@
 <body>
     <!-- Header section start -->
     <header>
-        <nav class="navbar navbar-expand-lg pt-4 primary-color">
+        <nav class="navbar navbar-expand-lg  navbar-dark pt-4 primary-color">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">Protfolio</a>
+                <a class="navbar-brand text-white fw-bold" href="#">Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center ms-auto mb-2 mb-lg-0">
@@ -34,16 +35,16 @@
                             <a class="nav-link text-white fw-bold aria-current=" page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold" href="#">About</a>
+                            <a class="nav-link text-white fw-bold" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold">Services</a>
+                            <a class="nav-link text-white fw-bold" href="#resume">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold">Projects</a>
+                            <a class="nav-link text-white fw-bold" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold">Contact</a>
+                            <a class="nav-link text-white fw-bold" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -68,8 +69,10 @@
                             <div class="social-container">
                                 <h6 class="mt-4 mb-2">FIND WITH ME</h6>
                                 <div class="social-icons">
-                                   <a href="https://web.facebook.com/ariyan.sayem.1251/"> <img class="img-fuild icons" src="./img/social-media/facebook-icon.png" alt=""></a>
-                                    <a href="https://www.instagram.com/ariyansayem/"><img class="img-fuild icons" src="./img/social-media/instagram-icon.png" alt=""></a>
+                                    <a href="https://web.facebook.com/ariyan.sayem.1251/"> <img class="img-fuild icons"
+                                            src="./img/social-media/facebook-icon.png" alt=""></a>
+                                    <a href="https://www.instagram.com/ariyansayem/"><img class="img-fuild icons"
+                                            src="./img/social-media/instagram-icon.png" alt=""></a>
                                     <img class="img-fuild icons" src="./img/social-media/twitter-icon.png" alt="">
                                     <img class="img-fuild icons" src="./img/social-media/linkedin-icon.png" alt="">
                                 </div>
@@ -82,48 +85,45 @@
             </div>
         </section>
         <!-- Home section end -->
+
         <!-- Services section start -->
-        <section class="services py-5">
+        <section id="services" class="services py-5">
             <div class="container">
                 <div class="text-center fw-bold mb-5">
-                    <h1 class="section-heading text-danger" style="font-family: 'Bebas Neue', cursive;">My <span>Services</span>
+                    <h1 class="section-heading text-danger" style="font-family: 'Bebas Neue', cursive;">My
+                        <span>Services</span>
                     </h1>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="row pt-3">
                     <div class="col-lg-4 pb-5">
-                        <div class="card service-card">
+                        <div class="card service-card" style="height: 15rem;">
                             <i class="fas fa-desktop"></i>
                             <h3>Web Design</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed omnis, iusto quo officia
-                                cupiditate
-                                perspiciatis delectus incidunt doloribus eius nostrum.</p>
+                            <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 pb-5">
-                        <div class="card service-card">
+                        <div class="card service-card special-card">
                             <i class="fas fa-laptop-code"></i>
                             <h3>Web Development</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed omnis, iusto quo officia
-                                cupiditate
-                                perspiciatis delectus incidunt doloribus eius nostrum.</p>
+                            <p>Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="card service-card">
+                        <div class="card service-card" style="height: 15rem;">
                             <i class="fas fa-photo-video"></i>
                             <h3>Media Marketing</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed omnis, iusto quo officia
-                                cupiditate
-                                perspiciatis delectus incidunt doloribus eius nostrum.</p>
+                            <p>Social media marketing is the use of social media platforms and websites to promote a product or service.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- services section end -->
+
         <!-- my resume section start -->
-        <section class="primary-color py-5">
+        <section id="resume" class="primary-color py-5">
             <div class="container">
                 <div class="text-center fw-bold mb-5">
                     <h1 class="section-heading text-danger" style="font-family: 'Bebas Neue', cursive;">My Resume
@@ -238,6 +238,7 @@
             </div>
         </section>
         <!-- Resume section end -->
+
         <!-- project section start -->
         <section id="projects" class="py-5 primary-color">
             <div class="container">
@@ -326,8 +327,9 @@
             </div>
         </section>
         <!-- project section end -->
+
         <!-- Contact section start -->
-        <section class="primary-color py-4">
+        <section id="contact" class="primary-color py-4">
             <div class="container">
                 <div class="text-center fw-bold pb-5">
                     <h1 class="section-heading text-danger" style="font-family: 'Bebas Neue', cursive;">Contact With Me
@@ -370,9 +372,10 @@
             </div>
         </section>
         <!-- Contact section emd -->
-
-        <!-- footer section start -->
-        <section id="footer bg-light">
+    </main>
+    <footer>
+         <!-- footer section start -->
+         <section id="footer bg-light">
             <img src="img/wave1.png" alt="" class="footer-img">
             <div class="container text-center pt-5 text-md-start">
                 <div class="row">
@@ -401,11 +404,7 @@
             </div>
         </section>
         <!-- footer section end -->
-
-    </main>
-
-
-
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

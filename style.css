@@ -73,4 +73,9 @@ body {
 /* resume section */
 .edu-img {
   height: 150px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.edu-card {
+  box-shadow: 10px 10px 30px rgb(0, 0, 0), -10px -10px 30px rgb(7, 7, 7);
 }

@@ -1,7 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni:ital@1&family=Oswald:wght@600&family=Poppins:wght@500&family=Square+Peg&family=Tapestry&family=Water+Brush&display=swap");
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Libre Bodoni', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Square Peg', cursive;
+font-family: 'Tapestry', cursive;
+font-family: 'Water Brush', cursive;
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 .primary-color {
   background-color: #0d1013;
@@ -13,4 +26,46 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.home-header {
+  font-family: "Oswald", sans-serif;
+}
+.social-icons {
+  display: flex;
+}
+.icons {
+  height: 50px;
+  width: 50px;
+}
+
+/* service section */
+.card {
+  background-color: white;
+  color: black;
+  padding: 2.5rem 1rem;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(196, 195, 195);
+  transition: all 0.5s ease;
+}
+.services .card i {
+  background: #3dcfd3;
+  font-size: 2rem;
+  padding: 1rem;
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services .card h3 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.services .card:hover {
+  background: #0d1013;
+}
+.services .card:hover h3,
+.services .card:hover p {
+  color: #ffffff;
 }
